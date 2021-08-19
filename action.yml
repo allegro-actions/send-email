@@ -1,0 +1,31 @@
+name: "send email"
+description: "sending email action"
+
+inputs:
+  from:
+    description: 'sender'
+    required: false
+
+  to:
+    description: 'recipient'
+    required: true
+
+  subject:
+    description: 'subject'
+    required: true
+
+  body:
+    description: 'message body'
+    required: false
+
+  template:
+    description: 'path to handlebars template'
+    required: false
+
+  context:
+    description: 'context for the template'
+    required: false
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
