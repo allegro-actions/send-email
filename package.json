@@ -7,13 +7,13 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@actions/core": "^1.4.0",
+    "@actions/core": "^1.5.0",
     "@gh-stats/reporter": "^1.0.2",
     "handlebars": "^4.7.7",
     "mailgun-js": "^0.22.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.29.0",
+    "@vercel/ncc": "^0.29.2",
     "eslint": "^7.32.0",
     "eslint-plugin-jest": "^24.4.0",
     "jest": "^27.0.6"
