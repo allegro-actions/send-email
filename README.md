@@ -15,9 +15,12 @@ This action sends email using company email provider.
     body: Hello, world!
 ```
 
+> HTML is allowed in body.
+
 ### Provide your own template and variables for template
 
 ```yaml
+- uses: actions/checkout@v2
 - uses: allegro-actions/send-email@v1
   with:
     subject: Awesome email!
@@ -26,3 +29,5 @@ This action sends email using company email provider.
     template: ./templates/my.html
     context: '{"name": "John"}'
 ```
+
+> template file is compiled using handlebars.
