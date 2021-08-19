@@ -1,5 +1,6 @@
 const fs = require('fs');
 const core = require('@actions/core');
+const { reportAction } = require('@gh-stats/reporter');
 const mailgun = require('mailgun-js');
 const Handlebars = require('handlebars');
 const defaultTemplate = require('./template.js');
@@ -13,6 +14,8 @@ const subject = core.getInput('subject');
 const body = core.getInput('body');
 const template = core.getInput('template');
 const context = core.getInput('context');
+
+reportAction();
 
 if (!apiKey) {
   core.setFailed('missing required MAILGUN_API_KEY env variable');
