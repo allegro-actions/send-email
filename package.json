@@ -10,7 +10,7 @@
     "@actions/core": "^1.4.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.29.0",
+    "@vercel/ncc": "^0.29.1",
     "eslint": "^7.32.0",
     "eslint-plugin-jest": "^24.4.0",
     "jest": "^27.0.6"
