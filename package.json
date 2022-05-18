@@ -7,7 +7,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@actions/core": "^1.5.0",
+    "@actions/core": "^1.8.2",
     "@gh-stats/reporter": "^1.0.5",
     "handlebars": "^4.7.7",
     "mailgun-js": "^0.22.0"
