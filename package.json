@@ -16,6 +16,6 @@
     "@vercel/ncc": "^0.34.0",
     "eslint": "^8.18.0",
     "eslint-plugin-jest": "^26.2.2",
-    "jest": "^27.1.0"
+    "jest": "^28.1.2"
   }
 }
